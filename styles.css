@@ -25,3 +25,26 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+
+.fadingDancer{
+  border:10px solid  rgb(54, 185, 255);
+  border-radius:10px;
+  position:absolute;
+}
+
+.slidingDancer{
+  border:10px solid  #eeff00;
+  border-radius:10px;
+  position:absolute;
+}
+
+
+.slidingDancer {
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  from {position: "top";}
+  to {position: "bottom";}
+}
